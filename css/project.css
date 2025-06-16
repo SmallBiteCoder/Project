@@ -54,7 +54,7 @@
 .dop-pro button{
     background-color: #2c5364;
     
-    background-image: url("./static/paper.png");
+    background-image: url("static/paper.png");
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50px;
@@ -77,7 +77,7 @@
     box-shadow: 0 0 5px rgba(24, 25, 26, 0.5);
 }
 #searchbutton{
-    background-image: url('./static/surch.png');
+    background-image: url('static/surch.png');
     width: 40px;
     height: 40px;
     border-radius: 50px;
