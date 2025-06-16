@@ -1,0 +1,95 @@
+
+.main-pro{
+    background-color: rgba(255, 255, 255, 0);
+    height: 100%;
+}
+
+.navbar {
+  background-color: #0c56a01f !important;  
+  border: 1px solid rgb(46, 45, 45);
+  border-radius: 10px;
+  margin: 5px ;
+}
+
+/* Change navbar brand text */
+.navbar-brand {
+  color: #d4c6c6 !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+.navbar .form-control {
+  width: 200px;
+  border-radius: 20px;
+  
+}
+
+/* Customize the search button */
+.navbar .btn-outline-success {
+  color: rgb(255, 255, 255);
+  border-color: rgb(61, 60, 60);
+  background-color: #2c5364;
+}
+
+.navbar .btn-outline-success:hover {
+  background-color:  #2c5364;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+
+}
+.text{
+    
+    min-width: 30vw ;
+    max-width: 40vw;
+}
+
+.dop-pro{
+    padding: 5px;
+    width: 50px;
+}
+.dop-pro button{
+    background-color: #2c5364;
+    
+    background-image: url("/static/paper.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+.dropdown-menu{
+    background-color: #2c5364;
+}
+
+.dropdown-menu li:hover{
+    background-color: #52859b;
+}
+#searchtext{
+    background-color: #e7e7e717;
+    color: white;
+    border: 1px solid rgb(41, 41, 41);
+}
+#searchtext:focus{
+    box-shadow: 0 0 5px rgba(24, 25, 26, 0.5);
+}
+#searchbutton{
+    background-image: url('/static/surch.png');
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.body-card{
+  
+
+  overflow-y: auto;
+  scrollbar-width: none;
+  height: 100%;
+}

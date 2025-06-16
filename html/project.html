@@ -1,0 +1,61 @@
+<div class="main-pro">
+    <link rel="stylesheet" href="css/project.css">
+
+    <div class="projects-nav">
+        <!-- <form class="myform" action="">
+            
+            <input class="text" type="text" placeholder="search">
+        </form> -->
+
+    </div>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="dop-pro">
+                <div class="dropdown">
+                    <button button id="navDropButton" class="btn btn-secondary" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false"></button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item" id="sno" onclick="changeVar('sno')">
+                            Id Number
+                        </li>
+                        <li class="dropdown-item" id="sno" onclick="changeVar('Name')">
+                            Name
+                        </li>
+                        <li class="dropdown-item" id="sno" onclick="changeVar('concp')">
+                            Concepts
+                        </li>
+                        <li class="dropdown-item" id="sno" onclick="changeVar('lib')">
+                            Libraries
+                        </li>
+                        <li class="dropdown-item" id="sno" onclick="changeVar('kw')">
+                            keyword
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+            <form class="d-flex" role="search">
+                <input id="searchtext" class="form-control me-2" type="search" placeholder="Search"
+                    aria-label="Search" />
+                <button id="searchbutton" onclick="search(searchtext)" class="btn btn-outline-success"
+                    type="submit"></button>
+            </form>
+        </div>
+    </nav>
+
+
+    <div id="MangCard" class="body-card">
+        <div id='delo'class="card text-end" style="background-color: #0c56a01e !important;  
+  border: 1px solid rgb(46, 45, 45);
+  border-radius: 10px;
+  margin: 5px ; ">
+            <div class="card-body" style="display: flex; align-items: center; justify-content: center;">
+                <a onclick="addMoreItem()"  class="btn btn-primary"
+                    style="background-color: #2c5364; border: #3a3939 1px solid;">More</a>
+            </div>
+        </div>
+    </div>
+    <script src="/scripts/project.js"></script>
+
+</div>
