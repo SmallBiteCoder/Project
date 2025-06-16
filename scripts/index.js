@@ -32,7 +32,7 @@ loadPage(id)
 }
 
 function loadPage(page) {
-  fetch(`html/${page}.html`)
+  fetch(`./html/${page}.html`)
     .then(res => res.text())
     .then(html => {
       const container = document.getElementById('content');
