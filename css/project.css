@@ -77,7 +77,7 @@
     box-shadow: 0 0 5px rgba(24, 25, 26, 0.5);
 }
 #searchbutton{
-    background-image: url('./static/surch.png');
+    background-image: url('https://github.com/SmallBiteCoder/Project/blob/main/static/surch.png');
     width: 40px;
     height: 40px;
     border-radius: 50px;
