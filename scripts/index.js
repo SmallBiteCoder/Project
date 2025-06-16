@@ -17,7 +17,7 @@ const navTab=document.querySelectorAll(".navtab ul li");
 // document.getElementById('home').classList.add('clicked-style')
 
 // document.getElementById('navDropButton').innerHTML="Home"
-loadPage('project')
+loadPage('home')
 
 
 
